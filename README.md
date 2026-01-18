@@ -15,6 +15,7 @@ This platform enables organizations to gain deep insights into workforce product
 ## **Tech Stack**
 
 ### **Backend**
+
 - **Node.js** with **TypeScript** for type safety
 - **Express.js** for REST API
 - **PostgreSQL** with pgvector extension enabled
@@ -307,6 +308,7 @@ agent_audit_log (agent_type, user_id, query, response, sql_generated, ...)
 ### **Future AI Features**
 
 The database is prepared for advanced AI capabilities:
+
 - **pgvector extension** enabled for vector embeddings
 - **Embedding columns** ready for app similarity search
 - **Vector indexes** configured for efficient similarity queries
@@ -528,39 +530,3 @@ curl -X POST http://localhost:3000/api/chat \
 # Check seeded data
 npm run seed  # Shows data counts
 ```
-
-## 🔒 **Security Features**
-
-- **JWT Authentication** with role-based access
-- **RBAC Implementation** (Admin/Manager/Employee roles)
-- **SQL Injection Prevention** with parameterized queries
-- **Input Validation** on all endpoints
-- **Audit Logging** for all AI agent actions
-
-## 📈 **Performance & Scalability**
-
-- **Batch Processing** for large data imports
-- **Database Indexing** on common query patterns
-- **Connection Pooling** with pg library
-- **Efficient Queries** with proper RBAC filtering
-- **pgvector Ready** for future AI enhancements
-
-## 🎯 **Key Achievements**
-
-✅ **Natural Language Processing**: Complex queries in plain English
-✅ **Automated Classification**: AI-powered app productivity assessment
-✅ **Comprehensive Analytics**: 6 months of realistic workforce data
-✅ **Learning System**: Continuous improvement through feedback
-✅ **Production Ready**: RBAC, audit trails, error handling
-✅ **Modern Tech Stack**: TypeScript, PostgreSQL, LLM integration
-
-## 📞 **Contact**
-
-This project demonstrates expertise in:
-- **AI/ML Integration** with modern LLMs
-- **Full-Stack Development** with modern best practices
-- **Data Engineering** with PostgreSQL and analytics
-- **System Architecture** with scalable, maintainable design
-- **User Experience** with intuitive interfaces
-
-The platform provides actionable workforce insights through intelligent automation and natural interaction patterns.
