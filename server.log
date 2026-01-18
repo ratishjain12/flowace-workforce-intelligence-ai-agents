@@ -1,0 +1,2144 @@
+
+> flowace-assignment@1.0.0 dev
+> tsx watch src/app.ts
+
+[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 16, rows: 1 }
+Database connected: 2026-01-18T17:59:32.054Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:30:04 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:367:2: ERROR: Unexpected "}"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:30:56 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:367:2: ERROR: Unexpected "}"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:31:06 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:366:4: ERROR: Unexpected "catch"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:31:30 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:273:4: ERROR: Unexpected "}"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:31:40 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:324:4: ERROR: Unexpected "catch"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:31:51 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:273:4: ERROR: Unexpected "}"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:32:10 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/ratishjain/Desktop/personal/flowace-assignment/src/agents/chat/parser.ts:294:2: ERROR: Unexpected "}"
+    at failureErrorWithLog (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ratishjain/Desktop/personal/flowace-assignment/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v22.18.0
+11:32:20 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 22, rows: 1 }
+Database connected: 2026-01-18T18:02:21.143Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:37:22 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 35, rows: 1 }
+Database connected: 2026-01-18T18:07:22.707Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:37:56 pm [tsx] change in ./src/agents/chat/parser.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Executed query { text: 'SELECT NOW()', duration: 23, rows: 1 }
+Database connected: 2026-01-18T18:07:57.069Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:38:11 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Executed query { text: 'SELECT NOW()', duration: 19, rows: 1 }
+Database connected: 2026-01-18T18:08:12.174Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:38:19 pm [tsx] change in ./src/agents/chat/parser.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 18, rows: 1 }
+Database connected: 2026-01-18T18:08:19.547Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:39:12 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 21, rows: 1 }
+Database connected: 2026-01-18T18:09:13.132Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:39:30 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+Executed query { text: 'SELECT NOW()', duration: 18, rows: 1 }
+Database connected: 2026-01-18T18:09:31.116Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:39:42 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 18, rows: 1 }
+Database connected: 2026-01-18T18:09:42.743Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:39:50 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Executed query { text: 'SELECT NOW()', duration: 19, rows: 1 }
+Database connected: 2026-01-18T18:09:50.806Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:39:58 pm [tsx] change in ./src/agents/chat/parser.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+Executed query { text: 'SELECT NOW()', duration: 23, rows: 1 }
+Database connected: 2026-01-18T18:09:59.170Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+2026-01-18T18:10:49.562Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 18,
+  rows: 1
+}
+🔍 Classifying query with LLM: What was the average productivity rate last week?
+🤖 LLM classification response: data
+Query type for "What was the average productivity rate last week?": data
+Parsing query...
+🤖 Using LLM for complex query: "What was the average productivity rate last week?"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2026-01-11","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(COALESCE(SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0), 0) * 100, 2) as productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2
+SQL Params: [ '2026-01-11', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT ROUND(COALESCE(SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0), 0) * 100, ',
+  duration: 8,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 6,
+  rows: 1
+}
+2026-01-18T18:10:54.172Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 1,
+  rows: 1
+}
+🔍 Classifying query with LLM: How many total hours were worked last month?
+🤖 LLM classification response: data
+Query type for "How many total hours were worked last month?": data
+Parsing query...
+🤖 Using LLM for complex query: "How many total hours were worked last month?"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-11-01",
+      "end": "2025-11-30"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-11-01",
+      "end": "2025-11-30"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2025-11-01","end":"2025-11-30"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-11-01",
+      "end": "2025-11-30"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(SUM(total_duration) / 60.0::numeric, 2) as total_hours FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2
+SQL Params: [ '2025-11-01', '2025-11-30' ]
+Executing query...
+Executed query {
+  text: 'SELECT ROUND(SUM(total_duration) / 60.0::numeric, 2) as total_hours FROM daily_usage WHERE 1=1 AND d',
+  duration: 6,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 2,
+  rows: 1
+}
+2026-01-18T18:10:58.426Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 1,
+  rows: 1
+}
+🔍 Classifying query with LLM: What are the top 5 most used applications?
+🤖 LLM classification response: data
+Query type for "What are the top 5 most used applications?": data
+Parsing query...
+🤖 Using LLM for complex query: "What are the top 5 most used applications?"
+📝 LLM parsed query: {
+  "intent": "list",
+  "entity": "apps",
+  "groupBy": [
+    "app_usage"
+  ],
+  "orderBy": "app_usage",
+  "limit": 5
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "list",
+  "entity": "apps",
+  "metrics": [],
+  "filters": {
+    "dateRange": {
+      "start": "2025-12-18",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "app_usage"
+  ],
+  "orderBy": "app_usage",
+  "limit": 5
+}
+Generating SQL...
+🤖 SQL Generation for: intent=list, entity=apps, filters={"dateRange":{"start":"2025-12-18","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "list",
+  "entity": "apps",
+  "metrics": [],
+  "filters": {
+    "dateRange": {
+      "start": "2025-12-18",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "app_usage"
+  ],
+  "orderBy": "app_usage",
+  "limit": 5
+}
+Generated SQL: SELECT app_name, category, ROUND(SUM(duration) / 60.0::numeric, 2) as total_hours, productivity_rating FROM app_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY app_name, category, productivity_rating ORDER BY app_name LIMIT $3
+SQL Params: [ '2025-12-18', '2026-01-17', 5 ]
+Executing query...
+Executed query {
+  text: 'SELECT app_name, category, ROUND(SUM(duration) / 60.0::numeric, 2) as total_hours, productivity_rati',
+  duration: 37,
+  rows: 5
+}
+Query returned 5 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 2,
+  rows: 1
+}
+2026-01-18T18:11:08.115Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 1,
+  rows: 1
+}
+🔍 Classifying query with LLM: AWS Console give me details about this
+🤖 LLM classification response: general
+Query type for "AWS Console give me details about this": general
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:11:25.622Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 16,
+  rows: 1
+}
+🔍 Classifying query with LLM: list out projects
+🤖 LLM classification response: data
+Query type for "list out projects": data
+Parsing query...
+🔍 Direct parsing for list query: "list out projects"
+✅ Direct detected: projects
+📝 Parsed query: {
+  "intent": "list",
+  "entity": "projects",
+  "metrics": [],
+  "filters": {}
+}
+Generating SQL...
+🤖 SQL Generation for: intent=list, entity=projects, filters={}
+✅ Using direct entity SQL generation: SELECT name, billable FROM projects WHERE 1=1 ORDER BY name
+Generated SQL: SELECT name, billable FROM projects WHERE 1=1 ORDER BY name
+SQL Params: []
+Executing query...
+Executed query {
+  text: 'SELECT name, billable FROM projects WHERE 1=1 ORDER BY name',
+  duration: 3,
+  rows: 20
+}
+Query returned 20 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:11:39.768Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 11,
+  rows: 1
+}
+🔍 Classifying query with LLM: give me details about Code Refactoring
+🤖 LLM classification response: data
+Query type for "give me details about Code Refactoring": data
+Parsing query...
+🤖 Using LLM for complex query: "give me details about Code Refactoring"
+📝 LLM parsed query: {
+  "intent": "drill_down",
+  "entity": "projects",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {
+    "projects": [
+      "Code Refactoring"
+    ]
+  }
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "drill_down",
+  "entity": "projects",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {
+    "projects": [
+      "Code Refactoring"
+    ],
+    "dateRange": {
+      "start": "2025-12-18",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": []
+}
+Generating SQL...
+🤖 SQL Generation for: intent=drill_down, entity=projects, filters={"projects":["Code Refactoring"],"dateRange":{"start":"2025-12-18","end":"2026-01-17"}}
+✅ Using direct entity SQL generation: SELECT name, billable FROM projects WHERE 1=1 ORDER BY name
+Generated SQL: SELECT name, billable FROM projects WHERE 1=1 ORDER BY name
+SQL Params: []
+Executing query...
+Executed query {
+  text: 'SELECT name, billable FROM projects WHERE 1=1 ORDER BY name',
+  duration: 2,
+  rows: 20
+}
+Query returned 20 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:11:55.743Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 12,
+  rows: 1
+}
+🔍 Classifying query with LLM: give me details about Code Refactoring project
+🤖 LLM classification response: data
+Query type for "give me details about Code Refactoring project": data
+Parsing query...
+🤖 Using LLM for complex query: "give me details about Code Refactoring project"
+📝 LLM parsed query: {
+  "intent": "drill_down",
+  "entity": "projects",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {
+    "projects": [
+      "Code Refactoring"
+    ]
+  }
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "drill_down",
+  "entity": "projects",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {
+    "projects": [
+      "Code Refactoring"
+    ],
+    "dateRange": {
+      "start": "2025-12-18",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": []
+}
+Generating SQL...
+🤖 SQL Generation for: intent=drill_down, entity=projects, filters={"projects":["Code Refactoring"],"dateRange":{"start":"2025-12-18","end":"2026-01-17"}}
+✅ Using direct entity SQL generation: SELECT name, billable FROM projects WHERE 1=1 ORDER BY name
+Generated SQL: SELECT name, billable FROM projects WHERE 1=1 ORDER BY name
+SQL Params: []
+Executing query...
+Executed query {
+  text: 'SELECT name, billable FROM projects WHERE 1=1 ORDER BY name',
+  duration: 2,
+  rows: 20
+}
+Query returned 20 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:12:15.705Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 17,
+  rows: 1
+}
+🔍 Classifying query with LLM: What was the average productivity rate last week?
+🤖 LLM classification response: data
+Query type for "What was the average productivity rate last week?": data
+Parsing query...
+🤖 Using LLM for complex query: "What was the average productivity rate last week?"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2026-01-11","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(COALESCE(SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0), 0) * 100, 2) AS productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2
+SQL Params: [ '2026-01-11', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT ROUND(COALESCE(SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0), 0) * 100, ',
+  duration: 7,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 3,
+  rows: 1
+}
+11:42:38 pm [tsx] change in ./src/agents/chat/parser.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+11:42:39 pm [tsx] change in ./src/agents/chat/parser.ts Restarting...
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Executed query { text: 'SELECT NOW()', duration: 19, rows: 1 }
+Database connected: 2026-01-18T18:12:39.454Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+2026-01-18T18:12:45.031Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 4,
+  rows: 1
+}
+🔍 Classifying query with LLM: What was the average productivity rate last week?
+🤖 LLM classification response: data
+Query type for "What was the average productivity rate last week?": data
+Parsing query...
+🤖 Using LLM for complex query: "What was the average productivity rate last week?"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2026-01-11","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(AVG((productive_duration::numeric / NULLIF(total_duration, 0)) * 100)::numeric, 2) as productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2
+SQL Params: [ '2026-01-11', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT ROUND(AVG((productive_duration::numeric / NULLIF(total_duration, 0)) * 100)::numeric, 2) as p',
+  duration: 8,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 6,
+  rows: 1
+}
+2026-01-18T18:13:22.783Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 19,
+  rows: 1
+}
+🔍 Classifying query with LLM: How many total hours were worked last month?
+🤖 LLM classification response: data
+Query type for "How many total hours were worked last month?": data
+Parsing query...
+🤖 Using LLM for complex query: "How many total hours were worked last month?"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-11-01",
+      "end": "2025-11-30"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-11-01",
+      "end": "2025-11-30"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2025-11-01","end":"2025-11-30"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-11-01",
+      "end": "2025-11-30"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(SUM(total_duration) / 60.0::numeric, 2) as total_hours FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2
+SQL Params: [ '2025-11-01', '2025-11-30' ]
+Executing query...
+Executed query {
+  text: 'SELECT ROUND(SUM(total_duration) / 60.0::numeric, 2) as total_hours FROM daily_usage WHERE 1=1 AND d',
+  duration: 9,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:13:35.714Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 14,
+  rows: 1
+}
+🔍 Classifying query with LLM: give me bifurcation of these working hours
+🤖 LLM classification response: data
+Query type for "give me bifurcation of these working hours": data
+Parsing query...
+🤖 Using LLM for complex query: "give me bifurcation of these working hours"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {},
+  "groupBy": [
+    "classification"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-12-18",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "classification"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2025-12-18","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "total_duration",
+    "productive_duration",
+    "unproductive_duration",
+    "neutral_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2025-12-18",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "classification"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT classification, ROUND(SUM(total_duration)/60.0::numeric, 2) as total_hours, ROUND(SUM(productive_duration)/60.0::numeric, 2) as productive_hours, ROUND(SUM(unproductive_duration)/60.0::numeric, 2) as unproductive_hours, ROUND(SUM(neutral_duration)/60.0::numeric, 2) as neutral_hours FROM app_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY classification ORDER BY classification
+SQL Params: [ '2025-12-18', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 18,
+  rows: 1
+}
+2026-01-18T18:14:04.379Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 13,
+  rows: 1
+}
+🔍 Classifying query with LLM: give me hours distribution by projects
+🤖 LLM classification response: data
+Query type for "give me hours distribution by projects": data
+Parsing query...
+🤖 Using LLM for complex query: "give me hours distribution by projects"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "project_duration",
+    "non_project_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "projects"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "project_duration",
+    "non_project_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "projects"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2026-01-01","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "project_duration",
+    "non_project_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "projects"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT p.name, ROUND(SUM(pt.duration / 60.0)::numeric, 2) AS project_duration_hours, ROUND(SUM((du.project_duration - pt.duration) / 60.0)::numeric, 2) AS non_project_duration_hours FROM projects p JOIN project_time pt ON p.id = pt.project_id JOIN daily_usage du ON pt.user_id = du.user_id WHERE 1=1 AND pt.date BETWEEN $1 AND $2 AND du.date BETWEEN $1 AND $2 GROUP BY p.name ORDER BY p.name
+SQL Params: [ '2026-01-01', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT p.name, ROUND(SUM(pt.duration / 60.0)::numeric, 2) AS project_duration_hours, ROUND(SUM((du.p',
+  duration: 65,
+  rows: 20
+}
+Query returned 20 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:14:20.687Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 13,
+  rows: 1
+}
+🔍 Classifying query with LLM: give me hours distribution by projects
+🤖 LLM classification response: data
+Query type for "give me hours distribution by projects": data
+Parsing query...
+🤖 Using LLM for complex query: "give me hours distribution by projects"
+📝 LLM parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "project_duration",
+    "non_project_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "projects"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "project_duration",
+    "non_project_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "projects"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=summary, entity=, filters={"dateRange":{"start":"2026-01-01","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "summary",
+  "entity": "",
+  "metrics": [
+    "project_duration",
+    "non_project_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [
+    "projects"
+  ],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT p.name, ROUND(SUM(pt.duration / 60.0)::numeric, 2) AS project_duration_hours, ROUND(SUM((du.project_duration - pt.duration) / 60.0)::numeric, 2) AS non_project_duration_hours FROM projects p JOIN project_time pt ON p.id = pt.project_id JOIN daily_usage du ON pt.user_id = du.user_id WHERE 1=1 AND pt.date BETWEEN $1 AND $2 AND du.date BETWEEN $1 AND $2 GROUP BY p.name ORDER BY p.name
+SQL Params: [ '2026-01-01', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT p.name, ROUND(SUM(pt.duration / 60.0)::numeric, 2) AS project_duration_hours, ROUND(SUM((du.p',
+  duration: 66,
+  rows: 20
+}
+Query returned 20 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 5,
+  rows: 1
+}
+2026-01-18T18:14:44.936Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 13,
+  rows: 1
+}
+🔍 Classifying query with LLM: What are the most used apps by Engineering team?
+🤖 LLM classification response: data
+Query type for "What are the most used apps by Engineering team?": data
+Parsing query...
+🤖 Using LLM for complex query: "What are the most used apps by Engineering team?"
+📝 LLM parsed query: {
+  "intent": "list",
+  "entity": "apps",
+  "filters": {
+    "teams": [
+      "Engineering"
+    ],
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  }
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "list",
+  "entity": "apps",
+  "metrics": [],
+  "filters": {
+    "teams": [
+      "Engineering"
+    ],
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": []
+}
+Generating SQL...
+🤖 SQL Generation for: intent=list, entity=apps, filters={"teams":["Engineering"],"dateRange":{"start":"2026-01-01","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "list",
+  "entity": "apps",
+  "metrics": [],
+  "filters": {
+    "teams": [
+      "Engineering Team 1"
+    ],
+    "dateRange": {
+      "start": "2026-01-01",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": []
+}
+Generated SQL: SELECT DISTINCT app_name FROM app_usage WHERE 1=1 AND date BETWEEN $1 AND $2 AND user_id IN (SELECT id FROM users WHERE team_id IN (SELECT id FROM teams WHERE name = $3))
+SQL Params: [ '2026-01-01', '2026-01-17', 'Engineering Team 1' ]
+Executing query...
+Executed query {
+  text: 'SELECT DISTINCT app_name FROM app_usage WHERE 1=1 AND date BETWEEN $1 AND $2 AND user_id IN (SELECT ',
+  duration: 9,
+  rows: 45
+}
+Query returned 45 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:15:14.330Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 14,
+  rows: 1
+}
+🔍 Classifying query with LLM: Show productivity trends for the last 7 days
+🤖 LLM classification response: data
+Query type for "Show productivity trends for the last 7 days": data
+Parsing query...
+🔍 Direct parsing for list query: "Show productivity trends for the last 7 days"
+🤖 Using LLM for complex query: "Show productivity trends for the last 7 days"
+📝 LLM parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=trend, entity=, filters={"dateRange":{"start":"2026-01-10","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT date, ROUND((SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0)) * 100::numeric, 2) as productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY date ORDER BY date DESC LIMIT 100
+SQL Params: [ '2026-01-10', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT date, ROUND((SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0)) * 100::numer',
+  duration: 11,
+  rows: 8
+}
+Query returned 8 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 4,
+  rows: 1
+}
+2026-01-18T18:15:36.440Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 14,
+  rows: 1
+}
+🔍 Classifying query with LLM: Compare productive vs unproductive time this week
+🤖 LLM classification response: data
+Query type for "Compare productive vs unproductive time this week": data
+Parsing query...
+🤖 Using LLM for complex query: "Compare productive vs unproductive time this week"
+📝 LLM parsed query: {
+  "intent": "comparison",
+  "entity": "",
+  "metrics": [
+    "productive_duration",
+    "unproductive_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-18",
+      "end": "2026-01-17"
+    },
+    "productivityRating": [
+      "productive",
+      "unproductive"
+    ]
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "comparison",
+  "entity": "",
+  "metrics": [
+    "productive_duration",
+    "unproductive_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-18",
+      "end": "2026-01-17"
+    },
+    "productivityRating": [
+      "productive",
+      "unproductive"
+    ]
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=comparison, entity=, filters={"dateRange":{"start":"2026-01-18","end":"2026-01-17"},"productivityRating":["productive","unproductive"]}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "comparison",
+  "entity": "",
+  "metrics": [
+    "productive_duration",
+    "unproductive_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-18",
+      "end": "2026-01-17"
+    },
+    "productivityRating": [
+      "productive",
+      "unproductive"
+    ]
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(SUM(CASE WHEN productivity_rating = 'productive' THEN duration ELSE 0 END) / 60.0::numeric, 2) AS productive_hours, ROUND(SUM(CASE WHEN productivity_rating = 'unproductive' THEN duration ELSE 0 END) / 60.0::numeric, 2) AS unproductive_hours FROM app_usage WHERE 1=1 AND date BETWEEN $1 AND $2 AND productivity_rating IN ($3, $4)
+SQL Params: [ '2026-01-18', '2026-01-17', 'productive', 'unproductive' ]
+Executing query...
+Executed query {
+  text: "SELECT ROUND(SUM(CASE WHEN productivity_rating = 'productive' THEN duration ELSE 0 END) / 60.0::nume",
+  duration: 14,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 2,
+  rows: 1
+}
+2026-01-18T18:15:55.356Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 15,
+  rows: 1
+}
+🔍 Classifying query with LLM: Compare productive vs unproductive time last week
+🤖 LLM classification response: data
+Query type for "Compare productive vs unproductive time last week": data
+Parsing query...
+🤖 Using LLM for complex query: "Compare productive vs unproductive time last week"
+📝 LLM parsed query: {
+  "intent": "comparison",
+  "entity": "",
+  "metrics": [
+    "productive_duration",
+    "unproductive_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "comparison",
+  "entity": "",
+  "metrics": [
+    "productive_duration",
+    "unproductive_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=comparison, entity=, filters={"dateRange":{"start":"2026-01-11","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "comparison",
+  "entity": "",
+  "metrics": [
+    "productive_duration",
+    "unproductive_duration"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-11",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT ROUND(SUM(productive_duration)/60.0::numeric, 2) as productive_hours, ROUND(SUM(unproductive_duration)/60.0::numeric, 2) as unproductive_hours FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2
+SQL Params: [ '2026-01-11', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'SELECT ROUND(SUM(productive_duration)/60.0::numeric, 2) as productive_hours, ROUND(SUM(unproductive_',
+  duration: 4,
+  rows: 1
+}
+Query returned 1 rows
+Generating explanation...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 3,
+  rows: 1
+}
+2026-01-18T18:16:07.609Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 15,
+  rows: 1
+}
+🔍 Classifying query with LLM: Show productivity trends for the last 7 days
+🤖 LLM classification response: data
+Query type for "Show productivity trends for the last 7 days": data
+Parsing query...
+🔍 Direct parsing for list query: "Show productivity trends for the last 7 days"
+🤖 Using LLM for complex query: "Show productivity trends for the last 7 days"
+📝 LLM parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=trend, entity=, filters={"dateRange":{"start":"2026-01-10","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT date, ROUND((SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0) * 100, 2) as productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY date ORDER BY date DESC LIMIT 100
+SQL Params: [ '2026-01-10', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 22,
+  rows: 1
+}
+2026-01-18T18:16:18.342Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 1,
+  rows: 1
+}
+🔍 Classifying query with LLM: Show productivity trends for the last 7 days
+🤖 LLM classification response: data
+Query type for "Show productivity trends for the last 7 days": data
+Parsing query...
+🔍 Direct parsing for list query: "Show productivity trends for the last 7 days"
+🤖 Using LLM for complex query: "Show productivity trends for the last 7 days"
+📝 LLM parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=trend, entity=, filters={"dateRange":{"start":"2026-01-10","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT date, ROUND((SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0) * 100, 2) AS productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY date ORDER BY date DESC LIMIT 100
+SQL Params: [ '2026-01-10', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 19,
+  rows: 1
+}
+2026-01-18T18:16:34.321Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 12,
+  rows: 1
+}
+🔍 Classifying query with LLM: Show productivity trends for the last 7 days
+🤖 LLM classification response: data
+Query type for "Show productivity trends for the last 7 days": data
+Parsing query...
+🔍 Direct parsing for list query: "Show productivity trends for the last 7 days"
+🤖 Using LLM for complex query: "Show productivity trends for the last 7 days"
+📝 LLM parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=trend, entity=, filters={"dateRange":{"start":"2026-01-10","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT date, ROUND((SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0) * 100, 2) as productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY date ORDER BY date DESC LIMIT 100
+SQL Params: [ '2026-01-10', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 22,
+  rows: 1
+}
+2026-01-18T18:17:27.570Z POST /api/auth/login
+Executed query {
+  text: 'SELECT id, email, name, role, team_id, password_hash FROM users WHERE email = $1',
+  duration: 7,
+  rows: 1
+}
+2026-01-18T18:17:29.766Z POST /api/chat
+Executed query {
+  text: 'SELECT id, email, name, role, team_id FROM users WHERE id = $1',
+  duration: 1,
+  rows: 1
+}
+🔍 Classifying query with LLM: Show productivity trends for the last 7 days
+🤖 LLM classification response: data
+Query type for "Show productivity trends for the last 7 days": data
+Parsing query...
+🔍 Direct parsing for list query: "Show productivity trends for the last 7 days"
+🤖 Using LLM for complex query: "Show productivity trends for the last 7 days"
+📝 LLM parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+📅 Date context: {
+  "today": "2026-01-17",
+  "yesterday": "2026-01-16",
+  "lastWeekStart": "2026-01-11",
+  "lastWeekEnd": "2026-01-17",
+  "thisWeekStart": "2026-01-18",
+  "lastMonthStart": "2025-11-30",
+  "lastMonthEnd": "2025-12-30",
+  "last30Days": "2025-12-18",
+  "last7Days": "2026-01-10"
+}
+📝 Parsed query: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generating SQL...
+🤖 SQL Generation for: intent=trend, entity=, filters={"dateRange":{"start":"2026-01-10","end":"2026-01-17"}}
+🤖 Using LLM for all other queries
+📤 Sending to LLM: {
+  "intent": "trend",
+  "entity": "",
+  "metrics": [
+    "productivity_rate"
+  ],
+  "filters": {
+    "dateRange": {
+      "start": "2026-01-10",
+      "end": "2026-01-17"
+    }
+  },
+  "groupBy": [],
+  "orderBy": "",
+  "limit": null
+}
+Generated SQL: SELECT date, ROUND((SUM(productive_duration)::numeric / NULLIF(SUM(total_duration), 0) * 100, 2) as productivity_rate FROM daily_usage WHERE 1=1 AND date BETWEEN $1 AND $2 GROUP BY date ORDER BY date DESC LIMIT 100
+SQL Params: [ '2026-01-10', '2026-01-17' ]
+Executing query...
+Executed query {
+  text: 'INSERT INTO agent_audit_log\n' +
+    '     (agent_type, user_id, query, response, sql_generated, data_accessed',
+  duration: 11,
+  rows: 1
+}
+11:47:36 pm [tsx] change in ./src/agents/chat/sqlGenerator.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Executed query { text: 'SELECT NOW()', duration: 22, rows: 1 }
+Database connected: 2026-01-18T18:17:36.694Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:49:43 pm [tsx] change in ./src/agents/chat/parser.ts Rerunning...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Executed query { text: 'SELECT NOW()', duration: 24, rows: 1 }
+Database connected: 2026-01-18T18:19:44.082Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
+11:50:20 pm [tsx] change in ./src/agents/chat/parser.ts Restarting...
+c[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+Executed query { text: 'SELECT NOW()', duration: 21, rows: 1 }
+Database connected: 2026-01-18T18:20:20.848Z
+
+🚀 Server running on http://localhost:3000
+
+🔐 Test credentials (run 'npm run seed' to see all users):
+  Admin:    admin.user.1@company.com
+  Manager:  manager.1@company.com
+  Employee: employee.1@company.com
+  Password: password123 (for all users)
+
+💡 Use 'npm run seed' to populate database and see all user credentials
