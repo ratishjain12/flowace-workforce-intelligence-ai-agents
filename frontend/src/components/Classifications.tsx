@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect } from 'react';
 import {
   getClassificationRules,
@@ -30,7 +31,6 @@ export default function Classifications() {
   const [newAppName, setNewAppName] = useState('');
   const [classifyResult, setClassifyResult] = useState<any>(null);
   const [loading, setLoading] = useState(false);
-  const [actionLoading, setActionLoading] = useState<string | null>(null); // Track which action is loading
   const [activeView, setActiveView] = useState<'rules' | 'pending' | 'classify'>('rules');
 
   useEffect(() => {
@@ -41,7 +41,7 @@ export default function Classifications() {
   const loadRules = async () => {
     try {
       const data = await getClassificationRules(100);
-      setRules(data.items || data); // Handle both response formats
+      setRules(data.items);
     } catch (err) {
       console.error('Failed to load rules:', err);
     }
@@ -50,7 +50,7 @@ export default function Classifications() {
   const loadPending = async () => {
     try {
       const data = await getPendingClassifications();
-      setPending(data.items || data); // Handle both response formats
+      setPending(data.items);
     } catch (err) {
       console.error('Failed to load pending:', err);
     }
@@ -77,16 +77,12 @@ export default function Classifications() {
   };
 
   const handleApprove = async (id: string, override?: string) => {
-    setActionLoading(`approve-${id}`);
     try {
       await approveClassification(id, override ? { overrideClassification: override } : undefined);
       loadPending();
       loadRules();
     } catch (err) {
       console.error('Failed to approve:', err);
-      alert('Failed to approve classification');
-    } finally {
-      setActionLoading(null);
     }
   };
 
@@ -94,15 +90,11 @@ export default function Classifications() {
     const reason = prompt('Enter rejection reason:');
     if (!reason) return;
 
-    setActionLoading(`reject-${id}`);
     try {
       await rejectClassification(id, reason);
       loadPending();
     } catch (err) {
       console.error('Failed to reject:', err);
-      alert('Failed to reject classification');
-    } finally {
-      setActionLoading(null);
     }
   };
 
@@ -176,46 +168,39 @@ export default function Classifications() {
               {pending.map((item) => (
                 <div key={item.id} className="pending-card">
                   <h4>{item.app_name}</h4>
-                   <div className="classification-info">
-                     <div className="main-classification">
-                       <strong>Suggested:</strong> {getClassBadge(item.suggested_classification)}
-                       <span className="confidence">
-                         ({(parseFloat(item.confidence) * 100).toFixed(1)}% confidence)
-                       </span>
-                     </div>
-                     <div className="reasoning">
-                       <strong>Reasoning:</strong> {item.reasoning}
-                     </div>
-                   </div>
-                   <div className="actions">
-                     <button
-                       className="btn-approve"
-                       disabled={actionLoading === `approve-${item.id}`}
-                       onClick={() => handleApprove(item.id)}
-                     >
-                       {actionLoading === `approve-${item.id}` ? 'Approving...' : 'Approve'}
-                     </button>
-                     <button
-                       className="btn-override"
-                       disabled={actionLoading === `approve-${item.id}`}
-                       onClick={() => {
-                         const override = prompt(
-                           'Override classification (productive/neutral/unproductive):',
-                           item.suggested_classification
-                         );
-                         if (override) handleApprove(item.id, override);
-                       }}
-                     >
-                       Override
-                     </button>
-                     <button
-                       className="btn-reject"
-                       disabled={actionLoading === `reject-${item.id}`}
-                       onClick={() => handleReject(item.id)}
-                     >
-                       {actionLoading === `reject-${item.id}` ? 'Rejecting...' : 'Reject'}
-                     </button>
-                   </div>
+                  <p>
+                    Suggested: {getClassBadge(item.suggested_classification)}
+                    <span className="confidence">
+                      ({(parseFloat(item.confidence) * 100).toFixed(0)}% confidence)
+                    </span>
+                  </p>
+                  <p className="reasoning">{item.reasoning}</p>
+                  <div className="actions">
+                    <button
+                      className="btn-approve"
+                      onClick={() => handleApprove(item.id)}
+                    >
+                      Approve
+                    </button>
+                    <button
+                      className="btn-override"
+                      onClick={() => {
+                        const override = prompt(
+                          'Override classification (productive/neutral/unproductive):',
+                          item.suggested_classification
+                        );
+                        if (override) handleApprove(item.id, override);
+                      }}
+                    >
+                      Override
+                    </button>
+                    <button
+                      className="btn-reject"
+                      onClick={() => handleReject(item.id)}
+                    >
+                      Reject
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>
@@ -243,38 +228,21 @@ export default function Classifications() {
             <div className={`result ${classifyResult.error ? 'error' : 'success'}`}>
               {classifyResult.error ? (
                 <p>{classifyResult.error}</p>
-               ) : (
-                 <div className="classification-result">
-                   <h4>Classification Result for "{classifyResult.appName}"</h4>
-                   <div className="result-details">
-                     <div className="result-item">
-                       <strong>Classification:</strong> {getClassBadge(classifyResult.suggestedClassification)}
-                     </div>
-                     <div className="result-item">
-                       <strong>Confidence:</strong> {(classifyResult.confidence * 100).toFixed(1)}%
-                     </div>
-                     <div className="result-item">
-                       <strong>Reasoning:</strong> {classifyResult.reasoning}
-                     </div>
-                     <div className="result-item">
-                       <strong>Status:</strong>
-                       <span className={`status ${classifyResult.requiresApproval ? 'pending' : 'approved'}`}>
-                         {classifyResult.requiresApproval ? 'Pending approval' : 'Auto-approved'}
-                       </span>
-                     </div>
-                     {classifyResult.factors && classifyResult.factors.length > 0 && (
-                       <div className="result-item">
-                         <strong>Factors considered:</strong>
-                         <ul>
-                           {classifyResult.factors.map((factor: string, index: number) => (
-                             <li key={index}>{factor}</li>
-                           ))}
-                         </ul>
-                       </div>
-                     )}
-                   </div>
-                 </div>
-               )}
+              ) : (
+                <>
+                  <h4>{classifyResult.appName}</h4>
+                  <p>
+                    Classification: {getClassBadge(classifyResult.suggestedClassification)}
+                  </p>
+                  <p>Confidence: {(classifyResult.confidence * 100).toFixed(0)}%</p>
+                  <p>Reasoning: {classifyResult.reasoning}</p>
+                  <p>
+                    {classifyResult.requiresApproval
+                      ? 'Status: Pending approval'
+                      : 'Status: Auto-approved'}
+                  </p>
+                </>
+              )}
             </div>
           )}
         </div>
